@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/relativeLayout"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView
+        android:id="@+id/list_post"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:divider="#000"
+        android:dividerHeight="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/ketren"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:drawableTop="@drawable/ic_baseline_home_a"
+            android:paddingTop="10dp"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/button_photo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:drawableTop="@drawable/ic_baseline_image_a"
+            android:paddingTop="10dp"
+            android:text="Photos"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button_video"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:drawableTop="@drawable/ic_baseline_video_library_active"
+            android:paddingTop="10dp"
+            android:text="Videos"
+            android:textColor="#a2d9ff" />
+
+        <Button
+            android:id="@+id/button_music"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:drawableTop="@drawable/ic_baseline_library_music_a"
+            android:paddingTop="10dp"
+            android:text="Musics" />
+
+        <Button
+            android:id="@+id/button_trasua"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:drawableTop="@drawable/ic_baseline_local_cafe_a"
+            android:paddingTop="10dp"
+            android:text="Trà Sữa" />
+    </LinearLayout>
+
+</LinearLayout>
